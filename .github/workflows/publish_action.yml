@@ -12,6 +12,9 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
+    - run: ls -la
+    - run: ls abb-workspace/
+    - run: ls abb-workspace/dist
     - run: npm install
     - run: npm publish
       env:
