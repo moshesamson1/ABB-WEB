@@ -12,10 +12,9 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
-    - run: ls -la
-    - run: ls abb-workspace/
-    - run: ls abb-workspace/dist
+    - run: cd abb-workspace/
     - run: npm install
-    - run: npm publish
+    - run: npm run build -- --prod
+    - run: npm publish dist/abb-dumbs-lib
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
