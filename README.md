@@ -3,6 +3,9 @@ This is the unclassified repo for the abb project, web version.
 
 As this is an unclassified repository, it will contain **only** unclassified data, forms and code.
 
+## ABB-DUMBS-LIB
+![Build](https://github.com/moshesamson1/ABB-WEB/workflows/Build/badge.svg)
+
 ## Team Collaboration
 All work will be managed using Trello.
 There is a board designated to coding tasks specifically - commits should contain a reference to the relevant card in trello.
