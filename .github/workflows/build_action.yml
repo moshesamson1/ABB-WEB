@@ -36,7 +36,7 @@ jobs:
           cd abb-workspace/
           npm i -g codecov
           npm run test
-          codecov -t {{ secrets.CODECOV_TOKEN }}
+          codecov -t {{ secrets.CODECOV_TOKEN }} --disable=gcov
       - name: Push Build to Releases
         if: startsWith(github.ref, 'refs/tags/v') 
         uses: ncipollo/release-action@v1
