@@ -4,7 +4,7 @@ This is the unclassified repo for the abb project, web version.
 As this is an unclassified repository, it will contain **only** unclassified data, forms and code.
 
 ## ABB-DUMBS-LIB
-![Build](https://github.com/moshesamson1/ABB-WEB/workflows/Build/badge.svg)
+![Build](https://github.com/moshesamson1/ABB-WEB/workflows/Build/badge.svg) [![npm version](https://badge.fury.io/js/abb-dumbs-lib.svg)](https://badge.fury.io/js/abb-dumbs-lib)
 
 ## Team Collaboration
 All work will be managed using Trello.
